@@ -1,0 +1,101 @@
+.body{
+    
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1{
+   font-family: "Ribeye", serif;
+    align-self: center;
+    text-align: center;
+}
+
+#botones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.boton{
+    width: 30%;
+    align-self: center;
+    padding: 0.5%;
+    margin: 2%;
+    margin-bottom: 3%;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cuadrado{
+    width: 8%;
+    height: 8%;
+    padding: 2%;
+    border: 3px solid black;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    /* agranda el número */
+    font-weight: bold;
+}
+
+#pares{
+    font-family: "Limelight", sans-serif;
+    font-size: 28px;
+    background-color: rgb(37, 29, 148);
+    transition: transform 0.1s ease-in-out;
+    border: none;
+}
+
+#pares:hover{
+     background-color: rgb(83, 159, 230);
+     transform: scale(1.1);
+
+}
+
+#impares{
+     font-family: "Limelight", sans-serif;
+   
+     font-size: 22px;
+    background-color: rgb(184, 30, 30);
+    transition: transform 0.1s ease-in-out;
+    border: none;
+}
+
+#impares:hover{
+     background-color: rgb(241, 19, 19);
+     transform: scale(1.1);
+
+}
+
+#primos{
+     font-family: "Limelight", sans-serif;
+   
+     font-size: 22px;
+    background-color: rgb(53, 158, 22);
+    transition: transform 0.1s ease-in-out;
+    border: none;
+}
+
+#primos:hover{
+    background-color: rgb(105, 230, 67);
+    transform: scale(1.1);
+}
+
+.par {
+    background-color: rgb(17, 87, 128);
+    color : white;
+}
+
+.impar {
+    background-color: rgba(168, 9, 9, 0.959);
+    color : white;
+}
+.primo {
+    background-color: rgba(8, 146, 49, 0.952);
+    color : white;
+}
